@@ -28,14 +28,14 @@
   - Holding Register 9 (400010)
     - F Speed Value
 
-* Example usage 
+* Example usage <br/><br/>
 
-[![IMAGE ALT TEXT HERE](https://imgur.com/KoffLor.jpg)]
-  - is the equivalent of G0X-40Y100Z80E0F0<br/>
-[![IMAGE ALT TEXT HERE](https://imgur.com/yi6Lf6R.jpg)]
-  - is the equivalent of M114<br/>
-[![IMAGE ALT TEXT HERE](https://imgur.com/uDlEv4F)]
-  - Wiring<br/><br/>
+Equivalent of G0X-40Y100Z80E0F0
+[![IMAGE ALT TEXT HERE](https://imgur.com/KoffLor.jpg)]<br/><br/>
+Equivalent of M114
+[![IMAGE ALT TEXT HERE](https://imgur.com/yi6Lf6R.jpg)]<br/><br/>
+Wiring
+[![IMAGE ALT TEXT HERE](https://imgur.com/uDlEv4F.jpg)]<br/><br/><br/>
 
 
 
