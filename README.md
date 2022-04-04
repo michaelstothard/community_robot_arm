@@ -28,9 +28,9 @@
   - Holding Register 9 (400010)
     - F Speed Value
 
-* Example usage [![IMAGE ALT TEXT HERE](https://imgur.com/KoffLor)]
+* Example usage [![IMAGE ALT TEXT HERE](https://imgur.com/KoffLor.jpg)]
   - is the equivalent of G0X-40Y100Z80E0F0
-  [![IMAGE ALT TEXT HERE](https://imgur.com/yi6Lf6R)]
+  [![IMAGE ALT TEXT HERE](https://imgur.com/yi6Lf6R.jpg)]
   - is the equivalent of M114
 
 
