@@ -1,4 +1,39 @@
-# community_robot_arm 
+# community_robot_arm MODBUS SUPPORT ADDED
+
+*By default slave ID is set to 2
+
+*List of Registers to Build GCODE Command
+  - Holding Register 0 (400001)
+    - 0 = G Command
+    - 1 = M Command
+  - Holding Register 1 (400002)
+    - Type of G or M command
+  - Holding Register 2 (40003)
+    - 0 = positive value for X POS
+    - 1 = negative value of X POS
+  - Holding Register 3 (400004)
+    - X POS Value
+  - Holding Register 4 (400005)
+    - 0 = positive value for Y POS
+    - 1 = negative value of Y POS
+  - Holding Register 5 (400006)
+    - Y POS Value
+  - Holding Register 6 (400007)
+    - 0 = positive value for Z POS
+    - 1 = negative value of Z POS
+  - Holding Register 7 (400008)
+    - Z POS Value
+  - Holding Register 8 (400009)
+    - E POS Value
+  - Holding Register 9 (400010)
+    - F Speed Value
+
+* Example usage [![IMAGE ALT TEXT HERE](https://imgur.com/KoffLor)]
+  - is the equivalent of G0X-40Y100Z80E0F0
+  [![IMAGE ALT TEXT HERE](https://imgur.com/yi6Lf6R)]
+  - is the equivalent of M114
+
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yh1NoQ2Z36A/0.jpg)](https://www.youtube.com/watch?v=yh1NoQ2Z36A)
 
 Community robot arm is an open source collaboration project participated by an online community of learners & developers. It was developed based on the original design by [Florin Tobler](https://www.thingiverse.com/1718984)<br/> with multiple rounds of open hardware & software modification.
